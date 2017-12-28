@@ -1,0 +1,18 @@
+# ignore packages installed by npm
+node_modules
+.vscode
+# ignore private config
+private_config
+
+# ignore webstrom config
+.idea
+.bak
+
+# ignore tar file
+.tar.gz
+
+.nyc_output
+
+.DS_Store
+
+package-lock.json
