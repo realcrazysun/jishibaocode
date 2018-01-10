@@ -2,7 +2,7 @@
  * @Author: chao.gao 
  * @Date: 2017-12-27 18:26:37 
  * @Last Modified by: chao.gao
- * @Last Modified time: 2017-12-28 14:08:30
+ * @Last Modified time: 2018-01-10 11:28:32
  */
 const tool = require('./tool');
 const request = require('request');
@@ -36,8 +36,8 @@ sendRequest({
     method: 'get',
     // url: 'http://120.55.246.87/JSB/rest/sign_test'
     url: 'http://120.55.246.87/JSB/rest/trade/TradesSoldGetRequest?fields=tid,type,status,payment,orders,rx_audit_status',
-    AK:'9a7494a14ab2c74d46499c0f1ac6456e667d10337271c59f835ade95e895087f',
-    SK:'7c9e3286c6b6df9a7befcd93e886ec70b5449917d41357ab9109e7ddbfbeedd6'
+    AK:'1234567',
+    SK:'111'
 }, (error, result) => {
     console.log(result.body)
 })
